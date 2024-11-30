@@ -32,10 +32,11 @@
                     <li><a href="contact.html">Nous contacter</a></li>
                 </ul>
                 <div class="md:hidden cursor-pointer" id="open-btn"><i class="bi bi-justify " style="font-size: 1.5rem;"></i></div>
-                <div id="offcanvas" class="offcanvas font-poppins fixed inset-0 bg-gray-800 bg-opacity-75 transition-opacity">
+                <div id="offcanvas" class="offcanvas font-poppins fixed inset-0 bg-gray-800 bg-opacity-75 transition-opacity" style="z-index: 20;">
                     <div class="bg-white w-64 h-full p-4 text-primary">
                         <h2 class="text-lg font-bold mb-4">Menu</h2>
                         <ul class="space-y-3">
+                            <li><a href="index.html">Accueil</a></li>
                             <details class="relative">
                                 <summary>Nos services</summary>
                                 <ul class="absolute text-center">
@@ -48,7 +49,7 @@
                             <li>Blog</li>
                             <li><a href="contact.html">Nous contacter</a></li>
                         </ul>
-                        <button id="close-btn" class="mt-4 p-2 bg-red-400 text-white rounded">Fermer</button>
+                        <!-- <button id="close-btn" class="mt-4 p-2 bg-red-400 text-white rounded">Fermer</button> -->
                     </div>
                 </div>
             </nav>
@@ -230,7 +231,7 @@
             </div>
         </div>
      </footer>
-
+     <script src="src/aos.js"></script>
      <script src="src/app.js"></script>
 </body>
 </html>
