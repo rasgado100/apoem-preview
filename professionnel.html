@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entreprise de nettoyage à Pau - APOEM - La qualité à petit prix</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+</head>
+<body style="background-color: #fdffff;">
+    <div class="hero px-20 py-5  h-screen bg-cover relative text-white" style="background-image: url('assets/IMG_2354-300x159.jpeg'); background-repeat: no-repeat; background-position: center center; background-size: cover;">
+        <!-- <div class="w-full left-0 h-screen bg-black opacity-70 " ></div> -->
+        <div class="absolute left-0 h-screen top-0 w-full " style="background:rgba(0, 0, 0, 0.7)">
+            <nav class="flex justify-between items-center px-8 md:px-16  py-2 md:py-8 opacity-100 ">
+                <div class="flex">
+                    <a href="index.html">  <span class="logo font-montserat font-bold text-2xl"><img src="assets/logo_apoem.jpeg" class="size-20" alt=""></span></a>
+                   
+                </div>
+                <ul class="md:flex font-poppins justify-between font-roboto space-x-7 ms-12 hidden">
+                  <!-- <li> -->
+                      <details class="relative">
+                          <summary>Nos services</summary>
+                          <ul class="absolute text-center">
+                              <li class="mt-1 bg-white text-secondary-200 p-2 font-bold"><a href="particulier.html">Particuliers</a></li>
+                              <li class="mt-1 bg-white text-secondary-200 p-2 font-bold"><a href="professionnel.html">Professionnels</a></li>
+                          </ul>
+                      </details>
+                  <!-- </li> -->
+                  <li><a href="engagement.html">Nos engagements</a></li>
+                  <li><a href="prix_prestation.html">Nos prix</a></li>
+                  <li>Blog</li>
+                  <li><a href="contact.html">Nous contacter</a></li>
+              </ul>
+              <div class="md:hidden cursor-pointer" id="open-btn"><i class="bi bi-justify " style="font-size: 1.5rem;"></i></div>
+              <div id="offcanvas" class="offcanvas font-poppins fixed inset-0 bg-gray-800 bg-opacity-75 transition-opacity">
+                  <div class="bg-white w-64 h-full p-4 text-primary">
+                      <h2 class="text-lg font-bold mb-4">Menu</h2>
+                      <ul class="space-y-3">
+                          <details class="relative">
+                              <summary>Nos services</summary>
+                              <ul class="absolute text-center">
+                                  <li class="mt-1 bg-white text-secondary-200 p-2 font-bold"><a href="particulier.html">Particuliers</a></li>
+                                  <li class="mt-1 bg-white text-secondary-200 p-2 font-bold"><a href="professionnel.html">Professionnels</a></li>
+                              </ul>
+                          </details>
+                          <li><a href="engagement.html">Nos engagements</a></li>
+                          <li><a href="prix_prestation.html">Nos prix</a></li>
+                          <li>Blog</li>
+                          <li><a href="contact.html">Nous contacter</a></li>
+                      </ul>
+                      <button id="close-btn" class="mt-4 p-2 bg-red-400 text-white rounded">Fermer</button>
+                  </div>
+              </div>
+            </nav>
+           
+            <div class=" -mt-12  leading-tight font-montserat h-full flex flex-col justify-center items-center text-balance">
+                <div class="md:text-5xl text-3xl italic text-center font-montserrat font-bold mb-5 ">Services pour les professionnels</div>
+                <div class="font-poppins mb-5 text-center text-slate-100">Découvrez l'éfficacité d'un nettoyage de qualité à petit prix</div>
+
+            </div>
+        </div>
+    </div>
+
+    <section class="section ">
+        <p class="font-montserrat text-primary font-bold text-xl">Les services de nettoyage pour les professionnels sont diverses.</p>
+        <ul style="list-style-image: url('assets/iconcss-3.png'); " class="pl-12 font-poppins py-3 space-y-3">
+            <li>J’effectue un nettoyage des bureaux et des ateliers pour permettre au clients d’effectuer leurs tâches dans un environnement propre et sain.</li>
+            <li>Je nettoie les dommages causé par les sinistres, le nettoyage de graffitis et le nettoyage en fin de chantier ainsi que les exterieurs.</li>
+            <li>La désinfection fait aussi partie des services</li>
+        </ul>
+
+</section>
+<section class="bg-secondary-100 section">
+     <div class="flex md:gap-14 gap-5 mt-12 flex-col md:flex-row">
+
+        <div class="left md:w-2/3 text-slate-800 ">
+    <h1 class="subtitle-section text-2xl my-4   " style="text-align: left;">J’effectue également un entretien pour</h1>
+
+            <div class="flex flex-wrap gap-2">
+                <div class="domain">Bureaux</div>
+                <div class="domain">Commerces</div>
+                <div class="domain">Ecoles et crèches</div>
+                <div class="domain">Salle de sport</div>
+                <div class="domain">Maison de retraite</div>
+                <div class="domain">Mairie</div>
+                <div class="domain">Musée</div>
+                <div class="domain">Cinéma</div>
+                <div class="domain">Salle de fête</div>
+                <div class="domain">Stade</div>
+            </div>
+           
+        </div>
+        <div class="right md:w-1/2">
+            <div class="carousel w-full transition duration-500">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img
+                    src="assets/sports-1962574_1920.jpg"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="bg-white rounded-full size-8 flex items-center justify-center opacity-75 btn-circle">❮</a>
+                    <a href="#slide2" class="bg-white rounded-full size-8 flex items-center justify-center opacity-75 btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img
+                    src="assets/cleaning-8660309_1920.jpg"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="bg-white rounded-full size-8 flex items-center justify-center opacity-75 btn-circle">❮</a>
+                    <a href="#slide3" class="bg-white rounded-full size-8 flex items-center justify-center opacity-75 btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img
+                    src="assets/technique-lavage-vitre.jpg"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="bg-white rounded-full size-8 flex items-center justify-center opacity-75 btn-circle">❮</a>
+                    <a href="#slide4" class="bg-white rounded-full size-8 flex items-center justify-center opacity-75 btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img
+                    src="assets/woman-5928694_1920.jpg"
+                    class="w-full" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide3" class="bg-white rounded-full size-8 flex items-center justify-center opacity-75 btn-circle">❮</a>
+                    <a href="#slide1" class="bg-white rounded-full size-8 flex items-center justify-center opacity-75 btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+            <!-- <img src="assets/cleaning-1294867_640.webp" class="mt-5 md:mt-0 h-full md:h-full w-full object-cover rounded-md  " alt=""> -->
+        </div>
+</section>
+   
+<section class="section">
+  <p class="font-montserrat">
+    L’entreprise de nettoyage APOEM NETTOYAGE est dédiée à fournir des services de qualité supérieure pour garantir la propreté et l’hygiène de vos espaces. Que vous soyez une entreprise, un commerce ou une structure associatif, nous avons des solutions adaptées à vos besoins.
+  </p>
+  <div class="flex gap-x-12 mt-12 gap-y-5 flex-col md:flex-row">
+    <div class="bg-white rounded-xl p-4 text-clip border text-center border-gray-400 md:w-3/4   hover:-translate-y-2 hover:shadow-xl transition duration-300 cursor-pointer hover:border-secondary-100">
+        <img src="assets/icone2.JPG" alt="" class="block m-auto">
+        <div class=" font-coolvetica text-xl">Nettoyage de bureau</div>
+        <p class="text-gray-800 text-sm font-poppins">Nous offrons un service de nettoyage régulier.</p>
+    </div>
+    <div class="bg-white rounded-xl p-4 text-clip border text-center border-gray-400 md:w-3/4   hover:-translate-y-2 hover:shadow-xl transition duration-300 cursor-pointer hover:border-secondary-100">
+        <img src="assets/icone2.JPG" alt="" class="block m-auto">
+        <div class=" font-coolvetica text-xl">Nettoyage commercial</div>
+        <p class="text-gray-800 text-sm font-poppins">Nous proposons un nettoyage approfondi des surfaces de vente.</p>
+    </div>
+    <div class="bg-white rounded-xl p-4 text-clip border text-center border-gray-400 md:w-3/4   hover:-translate-y-2 hover:shadow-xl transition duration-300 cursor-pointer hover:border-secondary-100">
+        <img src="assets/icone2.JPG" alt="" class="block m-auto">
+        <div class=" font-coolvetica text-xl">Nettoyage après chantier</div>
+        <p class="text-gray-800 text-sm font-poppins">Après des travaux de construction ou de rénovation</p>
+    </div>
+    <div class="bg-white rounded-xl p-4 text-clip border text-center border-gray-400 md:w-3/4   hover:-translate-y-2 hover:shadow-xl transition duration-300 cursor-pointer hover:border-secondary-100">
+        <img src="assets/icone2.JPG" alt="" class="block m-auto">
+        <div class=" font-coolvetica text-xl">Nettoyage des vitres</div>
+        <p class="text-gray-800 text-sm font-poppins">Nous réalisons un nettoyage professionnel de vos vitres.</p>
+    </div>
+</div>
+  <div class="flex gap-x-12 mt-12 gap-y-5 flex-col md:flex-row">
+    
+    <div class="bg-white rounded-xl p-4 text-clip border text-center border-gray-400 md:w-3/4   hover:-translate-y-2 hover:shadow-xl transition duration-300 cursor-pointer hover:border-secondary-100">
+        <img src="assets/icone2.JPG" alt="" class="block m-auto">
+        <div class=" font-coolvetica text-xl">Entretien des sols</div>
+        <p class="text-gray-800 text-sm font-poppins">Nous utilisons des techniques adaptées pour prolonger la durée de vie de vos revêtements de sol.</p>
+    </div>
+    <div class="bg-white rounded-xl p-4 text-clip border text-center border-gray-400 md:w-3/4   hover:-translate-y-2 hover:shadow-xl transition duration-300 cursor-pointer hover:border-secondary-100">
+        <img src="assets/icone2.JPG" alt="" class="block m-auto">
+        <div class=" font-coolvetica text-xl">Nettoyage de AirBNB</div>
+        <p class="text-gray-800 text-sm font-poppins">Pour les propriétaires, nous proposons un service de nettoyage complet.</p>
+    </div>
+    <div class="bg-white rounded-xl p-4 text-clip border text-center border-gray-400 md:w-3/4   hover:-translate-y-2 hover:shadow-xl transition duration-300 cursor-pointer hover:border-secondary-100">
+        <img src="assets/icone2.JPG" alt="" class="block m-auto">
+        <div class=" font-coolvetica text-xl">Services personnalisés</div>
+        <p class="text-gray-800 text-sm font-poppins">Nous comprenons que chaque client a des besoins spécifiques. </p>
+    </div>
+</div>
+
+</section>
+<section class="section">
+  <p class="font-montserrat text-primary font-bold">
+    En choisissant APOEM NETTOYAGE vous optez pour la qualité.
+  </p>
+</section>
+
+
+<footer class="bg-primary p-5 font-montserrat text-white section">
+  <div class="flex justify-between md:flex-row flex-col md:mt-0 mt-12">
+      <div class="flex flex-col">
+          <div class="flex gap-3  border-b-2 border-white pb-5">
+             <a href="index.html"> <img src="assets/logo_apoem.jpeg" alt="" class="size-12"></a>
+              <div>
+                  <h1 class="font-bold">APOEM</h1>
+                  <div>La qualité à petit prix pour les particuliers et les professionnel</div>
+              </div>
+          </div>
+          <div class="font-bold text-center md:text-left   flex gap-5 md:flex-row flex-col leading-8 mt-10">
+              <div class="flex flex-col">
+                  <h1><a href="index.html">ACCUEIL</a></h1>
+                  <h1>Mon histoire</h1>
+                  
+                  <h1>Nos services</h1>
+              </div>
+              <div class="flex flex-col">
+                  <h1>Blog</h1>
+                  <h1><a href="prix_prestation.html">Nos prix</a></h1>
+                  <h1><a href="engagement.html">Nos engagements</a></h1>
+              </div>
+              <div class="flex flex-col">
+                  <h1><a href="contact.html">Nous contacter</a></h1>
+                  <h1>Mention légales</h1>
+                  <h1>Politique de confidentialité</h1>
+              </div>
+          </div>
+          <div class="bg-white mt-4 w-fit rounded-xl mb-8">
+              <i class="bi bi-facebook mx-2" style="font-size: 2em; color: #7eb5f4;"></i>
+              <i class="bi bi-instagram mx-2" style="font-size: 2em; color: #fa7324;"></i>
+              <i class="bi bi-linkedin mx-2" style="font-size: 2em; color: #007bff;"></i>
+          </div>
+      </div>
+      <div class="flex flex-col leading-8">
+          <h1 class="font-bold">NOUS CONTACTEZ</h1>
+          <div class="pl-3">
+              <div>
+               <h2 class="font-bold">ADRESSE</h2>
+               <p>54 Rue Berlioz 64000 Pau</p>
+              </div>
+              <div>
+               <h2 class="font-bold">MOBILE</h2>
+               <p>07 45 20 17 96</p>
+              </div>
+              <div>
+               <h2 class="font-bold">EMAIL</h2>
+               <p>apoemnettoyage@gmail.com</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<script src="src/app.js"></script>
+</body>
+</html>

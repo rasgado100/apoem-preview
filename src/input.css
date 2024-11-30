@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section{
+    padding: 100px 80px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+.title-section{text-align: center; @apply text-secondary-200  font-poppins uppercase text-2xl md:text-4xl font-bold;}
+.subtitle-section{text-align: center; @apply text-secondary-200 font-coolvetica;}
+
+.btn{
+    @apply py-4 px-4 bg-secondary-200 text-white rounded-xl font-montserrat font-bold hover:bg-blue-700 hover:transition hover:duration-200 active:scale-95  text-sm;
+}
+input,textarea{
+    @apply font-montserrat border-blue-200 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-inner;
+}
+.domain{
+    @apply text-primary font-bold font-montserrat text-base bg-gray-100 p-3 flex items-center justify-center rounded-md shadow ;
+}
+
+.carousel {
+    display: inline-flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+    .carousel-vertical {
+    flex-direction: column;
+    overflow-y: scroll;
+      scroll-snap-type: y mandatory;
+  }
+    .carousel-item {
+    box-sizing: content-box;
+    display: flex;
+    flex: none;
+      scroll-snap-align: start;
+  }
+    .carousel-start .carousel-item {
+      scroll-snap-align: start;
+    }
+    .carousel-center .carousel-item {
+      scroll-snap-align: center;
+    }
+    .carousel-end .carousel-item {
+      scroll-snap-align: end;
+    }
+    .carousel {
+        display: inline-flex;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        -ms-overflow-style: none;
+        scrollbar-width: none}
+    .carousel-vertical {
+        flex-direction: column;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory}
+    .carousel-item {
+        box-sizing: content-box;
+        display: flex;
+        flex: none;
+        scroll-snap-align: start}
+    .carousel-start .carousel-item {
+        scroll-snap-align: start}
+    .carousel-center .carousel-item {
+        scroll-snap-align: center}
+    .carousel-end .carousel-item {
+        scroll-snap-align: end}
+
+          /* Style pour masquer l'offcanvas par défaut */
+          .offcanvas {
+            /* display: none; */
+            transform: translateX(-100%);
+        }
+        .offcanvas.active {
+            /* display: block; */
+            transform: translateX(0);
+            transition : transform .5s ease ;
+        }
+@media (max-width:500px) {
+    .section{
+        padding: 1.65rem 1.8rem;
+    }
+}
+
