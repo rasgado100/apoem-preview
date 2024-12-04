@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - APOEM NETTOYAGE</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body>
+    <div class="hero pb-5  bg-cover  text-black" >
+        <!-- <div class="w-full left-0 h-screen bg-black opacity-70 " ></div> -->
+        <div class=" left-0  top-0 w-full " style="background:rgba(255, 255, 255, 1)">
+            <nav class="flex justify-between items-center px-8 md:px-16  py-2 md:py-4 opacity-100 ">
+                <div class="flex">
+                   <a href="index.html"><span class="logo font-montserat font-bold text-2xl"><img src="assets/logo_apoem.jpeg" class="size-20" alt=""></span></a> 
+                   
+                </div>
+                <ul class="md:flex font-poppins justify-between font-roboto space-x-7 ms-12 hidden">
+                    <!-- <li> -->
+                        <li><a href="index.html">Accueil</a></li>
+                        <details class="relative">
+                            <summary>Nos services</summary>
+                            <ul class="absolute text-center">
+                                <li class="mt-1 bg-white text-secondary-200 p-2 font-bold"><a href="particulier.html">Services particuliers</a></li>
+                                <li class="mt-1 bg-white text-secondary-200 p-2 font-bold"><a href="professionnel.html">Services professionnels</a></li>
+                            </ul>
+                        </details>
+                    <!-- </li> -->
+                    <li><a href="engagement.html">Nos engagements</a></li>
+                    <li><a href="prix_prestation.html">Nos prix</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Nous contacter</a></li>
+                </ul>
+                <div class="md:hidden cursor-pointer" id="open-btn"><i class="bi bi-justify " style="font-size: 1.5rem;"></i></div>
+                <div id="offcanvas" class="offcanvas font-poppins fixed inset-0 bg-gray-800 bg-opacity-75 transition-opacity" style="z-index: 20;">
+                    <div class="bg-white w-64 h-full p-4 text-primary">
+                        <h2 class="text-lg font-bold mb-4">Menu</h2>
+                        
+                        <ul class="space-y-3">
+                            <li><a href="index.html">Accueil</a></li>
+                            <details class="relative ">
+                                <summary class="cursor-pointer">Nos services</summary>
+                                <ul class="absolute text-center">
+                                    <li class="mt-1 bg-white text-secondary-200 p-2 font-bold"><a href="particulier.html">Services particuliers</a></li>
+                                    <li class="mt-1 bg-white text-secondary-200 p-2 font-bold"><a href="professionnel.html">Services professionnels</a></li>
+                                </ul>
+                            </details>
+                            <li><a href="engagement.html">Nos engagements</a></li>
+                            <li><a href="prix_prestation.html">Nos prix</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Nous contacter</a></li>
+                        </ul>
+                        <!-- <button id="close-btn" class="mt-4 p-2 bg-red-400 text-white rounded">Fermer</button> -->
+                    </div>
+                </div>
+            </nav>
+           
+            
+        </div>
+    </div>
+    <h1 class="title-section my-5">Articles de blog</h1>
+
+    <div class="section">
+        <div class="flex">
+            <a href="articles.html" class="md:w-2/3 md:h-1/2">
+                <img src="assets/howtonhow.png" alt="Image" class=" h-">
+            </a>
+            <div class="post-entry-1 h-100 md:h-1/2">
+               
+                <div class="p-4">
+                    <span class="text-gray-700 font-montserrat">Juillet 17, 2024 <span class="mx-2">par</span> <a href="#">Admin</a></span>
+                    <h2 class="mb-3 text-xl font-montserrat font-bold "><a href="articles.html">TRANSITION ÉCOLOGIQUE, LES ENTREPRISES DE PROPRETÉ S’ENGAGENT</a></h2>
+                    
+                    <p class="text-slate-600">Acheter des produits écolabellisés ne suffit plus ! Depuis quelques années, les entreprises de propreté s’engagent à accélérer leur transition écologique...</p>
+                    <p><a href="articles.html" class="link">Lire plus</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="flex gap-4 md:flex-row flex-col">
+                <div class="post-entry-1 h-100">
+                    <a href="articles.html">
+                        <img src="assets/about-thumb-1.jpg" alt="Image" class="">
+                    </a>
+                    <div class="p-4">
+                        <span class="text-gray-700 font-montserrat">Juillet 17, 2024 <span class="mx-2">par</span> <a href="#">Admin</a></span>
+                        <h2 class="mb-3 text-xl font-montserrat font-bold "><a href="articles.html">TRANSITION ÉCOLOGIQUE, LES ENTREPRISES DE PROPRETÉ S’ENGAGENT</a></h2>
+                        
+                        <p class="text-slate-600">Acheter des produits écolabellisés ne suffit plus ! Depuis quelques années, les entreprises de propreté s’engagent à accélérer leur transition écologique...</p>
+                        <p><a href="articles.html" class="link">Lire plus</a></p>
+                    </div>
+                </div>
+                <div class="post-entry-1 h-100">
+                    <a href="articles.html">
+                        <img src="assets/about-thumb-1.jpg" alt="Image" class="">
+                    </a>
+                    <div class="p-4">
+                        <span class="text-gray-700 font-montserrat">Juillet 17, 2024 <span class="mx-2">par</span> <a href="#">Admin</a></span>
+                        <h2 class="mb-3 text-xl font-montserrat font-bold "><a href="articles.html">TRANSITION ÉCOLOGIQUE, LES ENTREPRISES DE PROPRETÉ S’ENGAGENT</a></h2>
+                        
+                        <p class="text-slate-600">Acheter des produits écolabellisés ne suffit plus ! Depuis quelques années, les entreprises de propreté s’engagent à accélérer leur transition écologique...</p>
+                        <p><a href="articles.html" class="link">Lire plus</a></p>
+                    </div>
+                </div>
+                <div class="post-entry-1 h-100">
+                    <a href="articles.html">
+                        <img src="assets/about-thumb-1.jpg" alt="Image" class="">
+                    </a>
+                    <div class="p-4">
+                        <span class="text-gray-700 font-montserrat">Juillet 17, 2024 <span class="mx-2">par</span> <a href="#">Admin</a></span>
+                        <h2 class="mb-3 text-xl font-montserrat font-bold "><a href="articles.html">TRANSITION ÉCOLOGIQUE, LES ENTREPRISES DE PROPRETÉ S’ENGAGENT</a></h2>
+                        
+                        <p class="text-slate-600">Acheter des produits écolabellisés ne suffit plus ! Depuis quelques années, les entreprises de propreté s’engagent à accélérer leur transition écologique...</p>
+                        <p><a href="articles.html" class="link">Lire plus</a></p>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+</body>
+</html>
