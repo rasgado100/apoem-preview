@@ -1,29 +1,4 @@
 
-// Script pour initialiser AOS
-    AOS.init({
-		duration: 800,
-		easing: 'slide',
-		once: true
-	});
-// });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // JavaScript pour gérer l'ouverture et la fermeture de l'offcanvas
 const openBtn = document.getElementById('open-btn');
 // const closeBtn = document.getElementById('close-btn');

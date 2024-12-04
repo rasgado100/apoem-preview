@@ -26,7 +26,13 @@ input,textarea{
 .domain{
     @apply text-primary font-bold font-montserrat text-base bg-gray-50 p-3 flex items-center justify-center rounded-md shadow ;
 }
-
+.link{
+    font-style: italic;
+    color:blue;
+}
+.gray-confidential + section{
+    color:#3f3f3f;
+}
 .carousel {
     display: inline-flex;
     overflow-x: scroll;
